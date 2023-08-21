@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+manila:
+  name: Manila
+  latitude: 14.599512
+  longitude: 120.984222
+  timezone: Asia/Manila
+
+buenos_aires:
+  name: Buenos Aires
+  latitude: -34.603722
+  longitude: -58.381592
+  timezone: America/Argentina/Buenos_Aires

@@ -1,0 +1,12 @@
+<div class="locations-container-div">
+  <%= render partial: "header_dropdown" %>
+
+  <%= render partial: "weather_forecasts/forecast",
+    locals: {weather_forecasts: @location.weather_forecasts.upcoming}
+  %>
+  <footer>
+    <span>
+      Last updated at: <%= @location.weather_forecasts.upcoming.last&.updated_at%>
+    </span>
+  </footer>
+</div>

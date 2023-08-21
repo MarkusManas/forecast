@@ -1,0 +1,42 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+
+manila20230506:
+  date: <%= Date.new(2023,5,6) %>
+  sunrise: <%= DateTime.new(2023,5,6,6,50) %>
+  sunset: <%= DateTime.new(2023,5,6,18,50) %>
+  apparent_temperature_max: 39
+  apparent_temperature_min: 37
+  precipitation_probability_max: 0
+  location: manila
+
+manila20230507:
+  date: <%= Date.new(2023,5,7) %>
+  sunrise: <%= DateTime.new(2023,5,7,6,30) %>
+  sunset: <%= DateTime.new(2023,5,7,18,30) %>
+  apparent_temperature_max: 41
+  apparent_temperature_min: 35
+  precipitation_probability_max: 50
+  location: manila
+
+manila20230508:
+  date: <%= Date.new(2023,5,8) %>
+  sunrise: <%= DateTime.new(2023,5,8,6,40) %>
+  sunset: <%= DateTime.new(2023,5,8,18,40) %>
+  apparent_temperature_max: 36
+  apparent_temperature_min: 30
+  precipitation_probability_max: 100
+  location: manila
+
+buenos_aires20230507:
+  date: <%= Date.new(2023,5,7) %>
+  sunrise: <%= DateTime.new(2023,5,7,8,10) %>
+  sunset: <%= DateTime.new(2023,5,7,19,40) %>
+  apparent_temperature_max: 10
+  apparent_temperature_min: -2
+  precipitation_probability_max: 90
+  location: buenos_aires

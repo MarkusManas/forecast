@@ -1,0 +1,20 @@
+.forecast-table-div {
+  width: 80%;
+  margin: auto;
+}
+
+.weather-query {
+  padding-left: 3%;
+}
+
+footer > span {
+  font-size: smaller;
+}
+
+body {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/deqlpm7-be6a5c83-ef34-4612-8f43-7a1a0c31f6e9.jpg/v1/fill/w_1600,h_900,q_75,strp/playing_clouds_by_bisbiswas_deqlpm7-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvYjNiZTFkYWUtM2NhYS00ZDQ1LWJlNmMtM2RlNTg2YmE5NWUyXC9kZXFscG03LWJlNmE1YzgzLWVmMzQtNDYxMi04ZjQzLTdhMWEwYzMxZjZlOS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.pQR-tiYMXPe7axAs4pfajvjcZMCVbHuGudGydgJmEmw);
+}
+
+#forecast-table {
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+<div class="forecast-table-div">
+  <table class="table table-borderless table-hover rounded rounded-4 table-dark overflow-hidden" id="forecast-table">
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Sunrise</th>
+        <th scope="col">Sunset</th>
+        <th scope="col">High</th>
+        <th scope="col">Low</th>
+        <th scope="col">Precipitation chance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% weather_forecasts.each do |weather_forecast| %>
+        <tr>
+          <td><%= weather_forecast.date.to_date.to_fs(:short) %></td>
+          <td><%= weather_forecast.sunrise.to_fs(:time) %></td>
+          <td><%= weather_forecast.sunset.to_fs(:time) %></td>
+          <td><%= weather_forecast.apparent_temperature_max %> °C</td>
+          <td><%= weather_forecast.apparent_temperature_min %> °C</td>
+          <td><%= weather_forecast.precipitation_probability_max.to_fs(:percentage, precision: 0) %></td>
+        <tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,20 @@
+<div class="navbar navbar-expand-sm navbar-dark bg-light text-dark bg-opacity-25 fs-3">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="weather-query">
+      What's the weather like in:
+    </div>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">        
+        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <%= @location.name %>
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <% Location.alphabetical.where.not(id: @location.id).each do |location| %>
+            <%= link_to location.name, location, class: "dropdown-item"%>
+          <% end %>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
